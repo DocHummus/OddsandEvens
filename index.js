@@ -36,7 +36,7 @@ sortAll.addEventListener("click", () => {
     if (num % 2 === 0) {
       evens.textContent += `${num}`;
     } else {
-      ongamepaddisconnected.textContent += `${num}, `;
+      odds.textContent += `${num}, `;
     }
   }
   numberBank.length = 0;
